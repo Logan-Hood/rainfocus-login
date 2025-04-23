@@ -1,12 +1,38 @@
-# React + Vite
+# RainFocus UI – Logan Hood
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a login page replication assignment built with React and Vite.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Run the App
 
-## Expanding the ESLint configuration
+1. Unzip the project folder.
+2. In the terminal, navigate to the folder.
+3. Run `npm install` to restore dependencies.
+4. Run `npm run dev` to start the development server.
+5. Visit `http://localhost:5173` in the browser.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Alternatively, you can open `index.html` inside the `dist` folder after running `npm run build`.
+
+---
+
+## Technologies Used
+
+- React + Vite
+- JavaScript (ES6+)
+- SCSS / CSS Modules
+- Responsive Design
+
+---
+
+## Project Purpose
+
+This project was part of an interview process to demonstrate React UI skills, build process knowledge, and SCSS styling proficiency.
+
+---
+
+## Original README Content from Template
+
+> This template provides a minimal setup to get React working in Vite...
+
+(Then include any bits of the original you feel are worth keeping.)

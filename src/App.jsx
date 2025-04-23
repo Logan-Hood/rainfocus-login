@@ -1,4 +1,3 @@
-// src/App.jsx
 import React from 'react';
 import logo from './assets/logo.svg';
 import largeLogo from './assets/large_logo.png';

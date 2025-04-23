@@ -41,11 +41,7 @@ function App() {
         <button className="side-button">View Sessions</button>
       </div>
     </div>
-
-
   );
-
-
 }
 
 export default App;

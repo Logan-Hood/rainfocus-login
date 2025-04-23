@@ -35,6 +35,11 @@
         color: #07002B;
         border-radius: 4px;
         font-size: 1rem;
+        outline: none;
+
+        &:focus {
+            border: 2px solid #5C00DC;
+        }
     }
 
     button {
@@ -52,27 +57,12 @@
         }
     }
 
-    a {
-        color: #5C00DC
-    }
-
-    a:hover {
-        color: #3D0092;
-    }
 }
 
 .demo-link {
     color: #444;
     margin-top: 32px;
     margin-bottom: 32px;
-
-    a {
-        color: #5C00DC
-    }
-
-    a:hover {
-        color: #3D0092;
-    }
 
     @media screen and (min-width: 1024px) {
         margin-top: auto;

@@ -15,6 +15,7 @@ This is a login page replication assignment built with React and Vite.
 ---
 
 ## View Online
+
 1. [Live Demo on Vercel](https://rainfocus-login.vercel.app/)
 2. [GitHub Repository](https://github.com/Logan-Hood/rainfocus-login)
 

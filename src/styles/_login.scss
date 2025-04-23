@@ -1,0 +1,94 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+    background: #fff;
+    max-width: 460px;
+    min-width: 320px;
+    padding: 2rem;
+}
+
+.login-title {
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-bottom: 1.5rem;
+    color: #07002B;
+    text-align: left;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+
+    label {
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+        color: #444;
+    }
+
+    input {
+        padding: 0.75rem;
+        border: 1px solid #444;
+        background-color: #fff;
+        color: #07002B;
+        border-radius: 4px;
+        font-size: 1rem;
+    }
+
+    button {
+        margin-top: 2rem;
+        padding: 0.75rem;
+        background-color: #5C00DC;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        font-size: 1rem;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #3D0092;
+        }
+    }
+
+    a {
+        font-weight: lighter;
+        color: #5C00DC
+    }
+
+    a:hover {
+        color: #3D0092;
+    }
+}
+
+.demo-link {
+    color: #444;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+    a {
+        color: #5C00DC
+    }
+
+    a:hover {
+        color: #3D0092;
+    }
+
+    @media screen and (min-width: 1024px) {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+}
+
+.logo-top-left {
+    margin-bottom: 32px;
+    width: 70%;
+
+    @media screen and (min-width: 1024px) {
+        width: 40%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
